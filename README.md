@@ -24,6 +24,7 @@ Forslag til funksjoner
 -   bruk av bilde-dokumentasjon/analyse
 -   Validering av gjennvinningsstasjon, der 1 person registrerer stasjonen, og de to neste validerer lokasjonen og informasjonen.
 -   Trade poeng mot tokens? blockchain..
+-   Returpunkt for klær?
 
 Triggerpunkt - Gaminfication
 -   score for å plukke/ registrere søppel, ta en utfordring fra en, etc. EVT tokens..
