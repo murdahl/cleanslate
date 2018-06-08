@@ -26,6 +26,8 @@ Forslag til funksjoner
 -   Trade poeng mot tokens? blockchain..
 -   Returpunkt for klær?
 
+-   Heatmaps av søppel, blir rødere om det er mer søppel i området (kampen mellom grønt og rødt)
+
 Triggerpunkt - Gaminfication
 -   score for å plukke/ registrere søppel, ta en utfordring fra en, etc. EVT tokens..
 -   utfordre noen til å plukke søppel
@@ -44,6 +46,7 @@ Teknologi
 - Kart kan fås flere steder
 -   Stack Overflow - tec hjelp
 - Skyservere brukes som database for å samle og strukturere all info, rammeverk, koding, matematikken, brukerinfo med mer. appen henter informasjonen den trenger fra databasen.
+- Hente data fra: https://www.oslo.kommune.no/avfall-og-gjenvinning/hvordan-kildesortere-i-oslo/#gref
 
 Business:
 - Hypotetisk overtakelse av/partner med Rusken dvs. bymiljøetaten
@@ -51,4 +54,5 @@ Business:
 - søke om støtte skattefunn/innovasjon Norge
 - Blockchain - Empower.. - Nordic ocean Watch
 
+- Høre med renovasjonsetaten om midler
 
