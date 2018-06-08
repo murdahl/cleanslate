@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MapViewController.swift
 //  Clean Slate
 //
 //  Created by Svein Halvor Halvorsen on 08.06.2018.
@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import MapKit
 
-class ViewController: UIViewController {
+class MapViewController: UIViewController {
+
+    let mapView = MKMapView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    }
+
+    override func loadView() {
+        self.view = mapView
     }
 
     override func didReceiveMemoryWarning() {

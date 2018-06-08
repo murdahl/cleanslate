@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		226F628820CAB1B600A1151D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226F628720CAB1B600A1151D /* AppDelegate.swift */; };
-		226F628A20CAB1B600A1151D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226F628920CAB1B600A1151D /* ViewController.swift */; };
-		226F628D20CAB1B600A1151D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 226F628B20CAB1B600A1151D /* Main.storyboard */; };
+		226F628A20CAB1B600A1151D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226F628920CAB1B600A1151D /* MapViewController.swift */; };
 		226F628F20CAB1BA00A1151D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 226F628E20CAB1BA00A1151D /* Assets.xcassets */; };
 		226F629220CAB1BA00A1151D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 226F629020CAB1BA00A1151D /* LaunchScreen.storyboard */; };
 		7DE4F4EEAF8FA71550578698 /* Pods_Clean_Slate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B036A06550EF7D9D73C34A40 /* Pods_Clean_Slate.framework */; };
@@ -18,8 +17,7 @@
 /* Begin PBXFileReference section */
 		226F628420CAB1B600A1151D /* Clean Slate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clean Slate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		226F628720CAB1B600A1151D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		226F628920CAB1B600A1151D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		226F628C20CAB1B600A1151D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		226F628920CAB1B600A1151D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		226F628E20CAB1BA00A1151D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		226F629120CAB1BA00A1151D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		226F629320CAB1BA00A1151D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,8 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				226F628720CAB1B600A1151D /* AppDelegate.swift */,
-				226F628920CAB1B600A1151D /* ViewController.swift */,
-				226F628B20CAB1B600A1151D /* Main.storyboard */,
+				226F628920CAB1B600A1151D /* MapViewController.swift */,
 				226F628E20CAB1BA00A1151D /* Assets.xcassets */,
 				226F629020CAB1BA00A1151D /* LaunchScreen.storyboard */,
 				226F629320CAB1BA00A1151D /* Info.plist */,
@@ -150,7 +147,6 @@
 			files = (
 				226F629220CAB1BA00A1151D /* LaunchScreen.storyboard in Resources */,
 				226F628F20CAB1BA00A1151D /* Assets.xcassets in Resources */,
-				226F628D20CAB1B600A1151D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				226F628A20CAB1B600A1151D /* ViewController.swift in Sources */,
+				226F628A20CAB1B600A1151D /* MapViewController.swift in Sources */,
 				226F628820CAB1B600A1151D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,14 +208,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		226F628B20CAB1B600A1151D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				226F628C20CAB1B600A1151D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		226F629020CAB1BA00A1151D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -353,7 +341,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8U5Q4UYH46;
 				INFOPLIST_FILE = "Clean Slate/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "no.finkoslo.Clean-Slate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -369,7 +360,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8U5Q4UYH46;
 				INFOPLIST_FILE = "Clean Slate/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "no.finkoslo.Clean-Slate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
