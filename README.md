@@ -1,58 +1,24 @@
-2# cleanslate
-For å gjøre gatene renere
+# Clean Slate
 
-1. møte 06.06
-2. møte planlagt mandag 11./onsdag 13.
-- Oppgaver inn mot møte:
-- Magnus sjekker ut teknologi og rammeverk, samt prater med fetteren sin
-- Iver og Emil skriver inn tanker og ideer, samt sjekker ut Scrum Board (https://www.quora.com/What-is-scrum-board) og Stack Overflow (https://stackoverflow.com/)
-- Emil skriver kort møtereferat
+Clean Slate is an app that helps citizens keep their city clean.
 
-MVP - Minimum viable product (hva trengs for å få første versjon av et produktet som fungerer)
+## Getting started
 
-Forslag til funksjoner 
--   plukke søppel
--   registrere miljøstasjoner
--   registrere lokasjoner med søppel
--   finne miljøstasjoner for å kunne kaste søppel
--   Snømåking
--   hjelpe eldre
--   Differensiering av type søppel
--   Panteautomater
--   Nærmeste søppelkasse
--   Fakta om forskjellig type søppel, nedbrytningstid, hvor det blir laget, bedre alternativer etc.
--   bruk av bilde-dokumentasjon/analyse
--   Validering av gjennvinningsstasjon, der 1 person registrerer stasjonen, og de to neste validerer lokasjonen og informasjonen.
--   Trade poeng mot tokens? blockchain..
--   Returpunkt for klær?
+This repo contains the following:
 
--   Heatmaps av søppel, blir rødere om det er mer søppel i området (kampen mellom grønt og rødt)
+- A Node.js backend
+- An iOS app
 
-Triggerpunkt - Gaminfication
--   score for å plukke/ registrere søppel, ta en utfordring fra en, etc. EVT tokens..
--   utfordre noen til å plukke søppel
--   dele inn i sesonger/måneder, hvem har plukket mest totalt, innad i vennegjengen etc.
--   Samles for å plukke søppel etter større arrangementer, der det er lovet ut en fast sum score, som deles på dem som dukker opp.
+Once cloned, you should assign heroku as a remote, in order to deploy this to the backend.
 
-- Strukturering av arbeid:
--   Scrum board - føre opp alle oppgavene som må gjøres på lapper, og fjerne dem etter hvert som de er gjort
-- Github
+```sh
+heroku git:remote cleanslateapp
+```
 
-Teknologi
-- HTML5 med CSS
-- Java Script med Angular
-- Type Script
-- Innlogging med Facebook og/eller google
-- Kart kan fås flere steder
--   Stack Overflow - tec hjelp
-- Skyservere brukes som database for å samle og strukturere all info, rammeverk, koding, matematikken, brukerinfo med mer. appen henter informasjonen den trenger fra databasen.
-- Hente data fra: https://www.oslo.kommune.no/avfall-og-gjenvinning/hvordan-kildesortere-i-oslo/#gref
+### Deploy new versions
 
-Business:
-- Hypotetisk overtakelse av/partner med Rusken dvs. bymiljøetaten
-- Big Data - brukerinfo fra innsamling av søppel eller lignende. 
-- søke om støtte skattefunn/innovasjon Norge
-- Blockchain - Empower.. - Nordic ocean Watch
+Simply run `git push heroku master` to deploy any changes.
 
-- Høre med renovasjonsetaten om midler
+Heroku will then see `.slugignore` and remove the iOS source files, before using the `package.json` file to set this up as a  Node.js project. This file is just a dummy project to help Heroku find the real project in the `backend/` subfolder.
 
+It will cause the `postinstall` and `heroku-postbuild` hooks to be run, which will install all node packages. If successful, the new server version is up within a few seconds.
