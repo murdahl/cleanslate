@@ -4,5 +4,7 @@ target 'Clean Slate' do
     use_frameworks!
 
     # Pods for Clean Slate
+    pod 'Firebase/Core'
+    pod 'Firebase/Auth'
 
 end
