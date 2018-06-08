@@ -1,0 +1,12 @@
+{
+  "name": "cleanslate-root",
+  "version": "0.0.1",
+  "description": "This makes Heroku treat this as a node app, and installs modules in the backend subdir",
+  "scripts": {
+    "postinstall": "npm install --prefix backend",
+    "start": "npm start --prefix backend"
+  },
+  "engines": {
+    "node": "^8.11.2"
+  }
+}
