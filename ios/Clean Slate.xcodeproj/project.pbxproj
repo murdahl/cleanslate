@@ -11,6 +11,7 @@
 		226F628A20CAB1B600A1151D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226F628920CAB1B600A1151D /* MapViewController.swift */; };
 		226F628F20CAB1BA00A1151D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 226F628E20CAB1BA00A1151D /* Assets.xcassets */; };
 		226F629220CAB1BA00A1151D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 226F629020CAB1BA00A1151D /* LaunchScreen.storyboard */; };
+		229E808220CAB61200E694F6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 229E808120CAB61200E694F6 /* GoogleService-Info.plist */; };
 		7DE4F4EEAF8FA71550578698 /* Pods_Clean_Slate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B036A06550EF7D9D73C34A40 /* Pods_Clean_Slate.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +22,7 @@
 		226F628E20CAB1BA00A1151D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		226F629120CAB1BA00A1151D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		226F629320CAB1BA00A1151D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229E808120CAB61200E694F6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		38734F98CBB9E5812174EA0F /* Pods-Clean Slate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clean Slate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Clean Slate/Pods-Clean Slate.debug.xcconfig"; sourceTree = "<group>"; };
 		4C0CBE82B27F73C17EAF530E /* Pods-Clean Slate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clean Slate.release.xcconfig"; path = "Pods/Target Support Files/Pods-Clean Slate/Pods-Clean Slate.release.xcconfig"; sourceTree = "<group>"; };
 		B036A06550EF7D9D73C34A40 /* Pods_Clean_Slate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clean_Slate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +66,7 @@
 				226F628E20CAB1BA00A1151D /* Assets.xcassets */,
 				226F629020CAB1BA00A1151D /* LaunchScreen.storyboard */,
 				226F629320CAB1BA00A1151D /* Info.plist */,
+				229E808120CAB61200E694F6 /* GoogleService-Info.plist */,
 			);
 			path = "Clean Slate";
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			files = (
 				226F629220CAB1BA00A1151D /* LaunchScreen.storyboard in Resources */,
 				226F628F20CAB1BA00A1151D /* Assets.xcassets in Resources */,
+				229E808220CAB61200E694F6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
