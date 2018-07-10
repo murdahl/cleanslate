@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "59915301272",
+    "firebase_url": "https://cleanslate-207619.firebaseio.com",
+    "project_id": "cleanslate-207619",
+    "storage_bucket": "cleanslate-207619.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59915301272:android:710e172503cd8794",
+        "android_client_info": {
+          "package_name": "com.example.olema.cleanslate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59915301272-6hm6hfqdadir3euubc2r83bqun1lgns8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhWqq4lLVT1-vQKvFtMZmXJI_3Xlth8_I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
